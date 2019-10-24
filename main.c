@@ -5,8 +5,8 @@ int	ft_atoi(char *str);
 
 void	run_ex03()
 {
-	char *str = "     +--+---+--+--+124ab545";
-	printf("%d", ft_atoi(str));
+			char *str = "     +--+---+--+--+0124ab545";
+			printf("%d", ft_atoi(str));
 }
 
 int main(void)
