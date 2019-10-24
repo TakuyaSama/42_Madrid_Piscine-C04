@@ -6,7 +6,7 @@
 /*   By: adiaz-lo <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/22 10:59:23 by adiaz-lo          #+#    #+#             */
-/*   Updated: 2019/10/24 12:28:50 by adiaz-lo         ###   ########.fr       */
+/*   Updated: 2019/10/24 12:51:21 by adiaz-lo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int	ft_atoi(char *str)
 			counter *= -1;
 		i++;
 	}
-	while (str[i] && (str[i] >= '0' && str[i] <= '9'))
+	while (str[i] && str[i] >= '0' && str[i] <= '9')
 	{
 		result = result * 10 + (str[i] - 48);
 		i++;
